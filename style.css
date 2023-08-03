@@ -1,0 +1,1748 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:wght@900&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+width: 100%;
+height: auto;
+font-family: 'Roboto Slab', serif
+
+}
+
+.nav-bar{
+    width: 100%;
+    height: 68px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo ul li{
+    font-size: 15px;
+    list-style: none;
+   
+}
+
+.logo ul li i{
+    color: rgb(162, 162, 162);
+    font-size: 10px;
+}
+
+.logo ul li img{
+    width: 180px;
+    
+}
+
+.started{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.started button{
+    width: 122px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+}
+
+.started button:hover{
+    background-color: rgb(218, 61, 4);
+}
+
+.started h4{
+    display: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: 800px;
+    background-image: url("./homepagelogo.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.india-com{
+position: absolute;
+top: 352px;
+left: 685px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+.india-com img{
+    background-color: white;
+border: 5px solid white;
+border-radius: 20px;
+}
+
+.india-com h5{
+padding-block: 6px;
+font-weight: 550;
+}
+
+.india-com h6{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.india-times{
+    position: absolute;
+    top: 308px;
+    left: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+ }
+
+ .india-times img{
+    background-color: white;
+border: 5px solid white;
+border-radius: 20px;
+}
+
+.india-times h5{
+padding-block: 6px;
+font-weight: 550;
+}
+
+.india-times h6{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.news18{
+        position: absolute;
+        top: 260px;
+        left: 890px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+}
+
+.news18 img{
+    background-color: white;
+border: 5px solid white;
+border-radius: 20px;
+}
+
+.news18 h5{
+padding-block: 6px;
+font-weight: 550;
+}
+
+.news18 h6{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+    .times-india{
+        position: absolute;
+        top: 200px;
+        left: 980px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        }  
+
+        .times-india img{
+            background-color: white;
+        border: 5px solid white;
+        border-radius: 20px;
+        }
+        
+        .times-india h5{
+        padding-block: 6px;
+        font-weight: 550;
+        }
+        
+        .times-india h6{
+            font-weight: 300;
+            font-size: 12px;
+        }
+        
+        .aajtak{
+            position: absolute;
+            top: 140px;
+            left: 1130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            } 
+            
+            .aajtak img{
+                background-color: white;
+            border: 5px solid white;
+            border-radius: 20px;
+            }
+            
+            .aajtak h5{
+            padding-block: 6px;
+            font-weight: 550;
+            }
+            
+            .aajtak h6{
+                font-weight: 300;
+                font-size: 12px;
+            } 
+
+    .two-buttons{
+       
+        position: absolute;
+        left: 880px;
+        top: 520px;
+        
+    }  
+    
+    #news{
+        width: 190px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 20px;
+        font-size: 14px; 
+        margin-right: 15px;
+        
+    }
+
+    #india{
+        width: 180px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+.text-part{
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.text-part h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+   
+}
+
+.text-part input{
+    width: 420px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.text-part h5{
+    font-size: 20px;
+    color: white;
+    padding-top: 35px;
+}
+
+.text-part button{
+    width: 190px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(240, 88, 33);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 15px;
+}
+
+.text-part button:hover{
+    background-color: orangered;
+}
+
+.must-have{
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    padding-top: 60px;
+
+}
+
+.must-have h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.all-boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.boxa{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boxa img{
+    width: 118px;
+    padding-block: 18px;
+}
+
+
+.boxa ul li{
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    padding-block: 5px;
+    color: rgb(85, 82, 82);
+    padding-left: 20px;
+}
+
+.boxa ul li:nth-child(6){
+    padding-left: 100px;
+   margin-top: 32px;
+  
+}
+
+.boxa ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxb{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boxb img{
+    width: 108px;
+    padding-block: 16px;
+    padding-left: 20px;
+}
+
+
+.boxb ul li{
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    padding-block: 5px;
+    color: rgb(85, 82, 82);
+    padding-left: 20px;
+}
+
+.boxb ul li:nth-child(6){
+   
+  
+    padding-left: 100px;
+   margin-top: 30px;
+   
+}
+
+.boxb ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxc{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boxc img{
+   
+    width: 110px;
+    padding-block: 15px;
+    
+    padding-left: 20px;
+}
+
+
+.boxc ul li{
+    font-size: 14px;
+    list-style: none;
+    padding-block: 5px;
+    padding-left: 20px;
+}
+
+.boxc ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxc ul li:nth-child(6){
+    list-style: none;
+   text-decoration: none;
+    padding-left: 100px;
+   margin-top: 30px;
+   color: black;
+}
+
+.boxd{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boxd img{
+    width: 110px;
+    padding-block: 15px;
+    padding-left: 20px;
+}
+
+
+.boxd ul li{
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    padding-block: 6px;
+    color: rgb(85, 82, 82);
+    padding-left: 20px;
+}
+
+.boxd ul li:nth-child(6){
+    list-style: none;
+   text-decoration: none;
+    padding-left: 100px;
+   margin-top: 20px;
+   color: black;
+}
+
+.boxd ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxe{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.boxe img{
+    width: 125px;
+    padding-block: 20px;
+    padding-left: 10px;
+}
+
+
+.boxe ul li{
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    padding-block: 5px;
+    color: rgb(85, 82, 82);
+    padding-left: 20px;
+}
+
+.boxe ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxe ul li:nth-child(6){
+    list-style: none;
+   text-decoration: none;
+    padding-left: 100px;
+   margin-top: 30px;
+   color: black;
+}
+
+.platform{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 60px;
+}
+
+.platform p{
+font-size: 20px;
+}
+
+.platform button{
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(240, 88, 33);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 22px;
+}
+
+.platform button:hover{
+    background-color: orangered;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+    padding-block: 100px;
+}
+
+.slider h2{
+    text-align: center;
+}
+
+.slider-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.slider-img img{
+    width: 200px;
+}
+
+.traffic-meter{
+    width: 100%;
+    height: auto;
+    background: radial-gradient(circle, rgba(230,244,255,1) 0%, rgba(244,208,224,1) 0%, rgba(157,198,234,1) 93%, rgba(157,198,234,1) 99%, rgba(150,196,234,1) 100%, rgba(148,195,233,1) 100%);
+    padding-block: 80px;
+}
+
+.traffic-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.traffic-img img{
+    width: 500px;
+}
+
+.meter-text h4{
+color: orangered;
+font-weight: 300;
+}
+
+.meter-text h2{
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.meter-text p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 18px;
+}
+
+.meter-text span{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+    
+}
+
+.meter-text span button{
+    width: 220px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(230, 101, 54);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 22px;
+}
+
+.meter-text span button:hover{
+    background-color: orangered;
+}
+
+.meter-text span a{
+    font-size: 14px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.counting-section{
+    width: 100%;
+    height: auto;
+    /* padding-block: 40px; */
+}
+
+.counting-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.counting-text{
+    padding-top: 20px;
+}
+
+.counting-text h2{
+font-size: 40px;
+font-weight: 300;
+}
+
+.counting-text p{
+ font-size: 17px;
+font-weight: 300;
+padding-top: 16px;
+ }
+
+.counting-text h4{
+font-size: 17px;
+font-weight: 300;
+}
+
+.counting-text span button{
+    width: 120px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(230, 101, 54);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 22px;
+}
+
+.counting-text span button:hover{
+    background-color: orangered;
+}
+
+.counting-text span a{
+    font-size: 14px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.counting-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    width: 150px;
+    height: 280px;
+    background-color: rgb(6, 130, 255);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover{
+position: relative;
+z-index: 5;
+transition: all ease-in-out;
+transform: scale(110%);
+}
+.box1 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+.box2{
+    width: 150px;
+    height: 280px;
+    background-color:rgb(239, 239, 239);
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.box2 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.box2 img{
+    width: 20px;
+    
+}
+
+.box3{
+    width: 150px;
+    height: 280px;
+    background-color:rgb(239, 239, 239);
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+    top: 60px;
+    right: 40px;
+   
+}
+
+.box3 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.box3 img{
+    width: 20px;
+    
+}
+
+.box4{
+    width: 150px;
+    height: 280px;
+    background-color:rgb(239, 239, 239);
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    top: 90px;
+    right: 60px;
+    
+}
+
+.box4 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.box4 img{
+    width: 20px;
+}
+
+.box5{
+    width: 150px;
+    height: 280px;
+    background-color:rgb(239, 239, 239);
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    top: 120px;
+    right: 80px;  
+}
+
+.box5 h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.box5 img{
+    width: 20px;
+}
+
+#shopping{
+    width: 250px;
+    height: 40px;
+    border-radius: 16px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    border: none;
+    /* margin-top: 180px;
+    margin-left: 350px; */
+    position: absolute;
+    top: 550px;
+    left: 120px;
+    
+}
+
+#india-side{
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    border: none;
+    /* margin-top: 180px;
+    margin-left: 500px; */
+    position: absolute;
+    top: 550px;
+    left: 400px;
+}
+
+#india-side:hover{
+    background-color: rgb(134, 134, 255);
+}
+
+#shopping:hover{
+    background-color: rgb(134, 134, 255);
+}
+
+.index-part{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 280px;
+}
+
+.get-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(242, 242, 242);
+    padding-block: 50px;
+}
+
+.get-text h5{
+    font-size: 16px;
+color: orangered;
+}
+
+.get-text h2{
+font-size: 40px;
+font-weight: 300;
+padding-top: 10px;
+}
+
+.get-text p{
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    padding-top: 16px;
+}
+
+.get-text span button{
+    width: 162px;
+    height: 42px;
+    border-radius: 16px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.get-text span button:hover{
+    background-color: rgb(237, 107, 59);
+}
+
+.get-text span a{
+    font-size: 14px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.paragraph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 80px;
+}
+
+.paragraph h2{
+    font-size: 32px;
+    font-weight: 350;
+}
+
+.paragraph p{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.blue-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(7, 113, 218);
+    position: relative;
+    padding-block: 100px;
+}
+
+.blue-text{
+    padding-left: 80px;
+    
+}
+
+.blue-text h1{
+color: white;
+font-weight: 300;
+font-size: 40px;
+}
+
+.blue-text p{
+    color: white;
+    padding-top: 15px;
+}
+
+.first-line{
+    width: 50%;
+    color: white;
+display: flex;
+justify-content: space-evenly;
+padding-top: 40px;
+}
+
+.icon-box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-box1 h1{
+    font-size: 35px;
+}
+
+.icon-box1 h5{
+font-weight: 300;
+padding-top: 8px;
+}
+
+.second-line{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.icon-box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-box2 h1{
+    font-size: 35px;
+}
+
+.icon-box2 h5{
+    font-weight: 300;
+    padding-top: 8px;
+    }
+
+.learn{
+    color: white;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-left: 65px;
+}
+
+.learn:hover{
+    color: rgb(215, 215, 215);
+}
+
+.side-pic img{
+    width: 600px;
+    position: absolute;
+    left: 750px;
+    top: 170px;
+}
+
+.footer-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 44, 97);
+    display: flex;
+   padding-block: 40px;
+   
+}
+.logo-side{
+    width: 20%;
+}
+
+.logo-side span{
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.logo-side span:hover{
+    color: white;
+}
+
+.logo-side img{
+    width: 220px;
+    padding-left: 32px;
+}
+
+.logo-side h5{
+    color: rgb(159, 159, 159);
+    padding-left: 50px;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+.logo-side h4{
+    color: rgb(159, 159, 159);
+    padding-left: 50px;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.logo-side h4:hover{
+    color: white;
+}
+
+.logo-side p{
+    font-size: 14px;
+    color: rgb(159, 159, 159);
+    padding-left: 50px; 
+    padding-top: 20px;
+}
+
+.logo-side p:hover{
+    color: white;
+}
+
+.logo-side button{
+    width: 220px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(7, 113, 218);
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.logo-side button:hover{
+    background-color: blue;
+}
+
+.footer-list{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list ul li:first-child{
+  font-weight: 300;
+   color: white;
+   font-size: 16px;
+   padding-bottom: 20px;
+}
+
+.footer-list ul li:nth-child(11){
+    font-weight: 300;
+     color: white;
+     font-size: 16px;
+     padding-bottom: 20px;
+  }
+
+.footer-list ul li{
+    font-size: 14px;
+    list-style: none;
+    color: rgb(159, 159, 159);
+    padding-bottom: 8px; 
+}
+
+.footer-list li:hover{
+    color: white;
+}
+
+.final-footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 44, 97);
+}
+
+.last-line{
+width: 100%;
+padding-inline: 70px;
+}
+
+.last-line h4{
+    color: white;
+    font-weight: 300;
+    padding-block: 15px;
+    font-size: 15px;
+}
+
+.last-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.last-footer ul{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-footer ul li{
+    list-style: none;
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    padding-block: 40px;
+}
+
+.last-footer ul li:first-child{
+    color: white; 
+}
+
+.last-footer ul li:hover{
+    color: white;
+}
+
+.last-footer span{
+    color: white;
+    width: 45%;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar{
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo ul li{
+        display: none;
+    }
+
+    .logo ul li:first-child{
+        display: inline;
+    }
+
+    .started h2{
+display: none;
+    }
+
+    .started h3{
+    display: none;
+    }
+
+ .started button{
+display: none;
+ }
+
+    .started h4{
+        display: inline;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 550px;
+        background-image: url("./homepagelogo.webp");
+        background-position: center;
+    background-size: cover;
+    position: relative;
+   
+    }
+
+    .text-part{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-part hr{
+        display: none;
+    }
+
+    .two-buttons{
+        position: absolute;
+        left: 160px;
+        top: 420px;
+    }
+
+    #news{
+        width: 192px;
+        height: 38px;
+        font-size: 14px; 
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    #india{
+        width: 192px;
+        height: 38px;
+        font-size: 14px; 
+        margin-right: 0px;
+    }
+
+    .text-part h5{
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 0px;
+    }
+
+    .text-part button{
+        text-align: center;
+    }
+
+    .text-part h1{
+        font-size: 22px;
+        font-weight: 400;
+        
+    }
+/* 
+    .text-part h1 br{
+        display: none;
+    } */
+
+    .text-part input{
+        width: 350px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-inline: 20px;
+       
+    }
+
+    .india-com{
+        display: none;
+    }
+
+    .india-times{
+        display: none;
+    }
+
+    .news18{
+        display: none;
+    }
+
+    .aajtak{
+        display: none;
+    }
+
+    .times-india{
+        display: none;
+    }
+
+    .must-have{
+        width: 100%;
+        height: auto;
+    }
+
+    .must-have h1{
+        font-size: 30px;
+    }
+
+    .box{
+        width: 400px;
+        height: 220px;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box ul li{
+        font-size: 15px;
+    }
+
+    .all-boxes{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxa{
+        margin-bottom: 20px;
+    }
+
+    .boxb{
+        margin-bottom: 20px;
+    }
+
+    .boxc{
+        margin-bottom: 20px;
+    }
+
+    .boxd{
+        margin-bottom: 20px;
+    }
+
+    .boxe{
+        margin-bottom: 20px;
+    }
+
+    .slider{
+        width: 100%;
+    height: auto;
+    }
+
+    .slider-img img:nth-child(4){
+        display: none;
+    }
+
+    .slider-img img:nth-child(5){
+        display: none;
+    }
+
+    .slider-img img{
+        width: 130px;
+    }
+
+    .traffic-section{
+        flex-direction: column-reverse;
+        
+    }
+
+    .traffic-img img{
+        width: 400px;
+        padding-top: 40px;
+    }
+
+    .meter-text{
+        padding-inline: 20px;
+    }
+
+    .meter-text h2{
+        font-size: 28px;
+    }
+
+    .meter-text p{
+        font-size: 15px;
+    }
+
+    .meter-text p br{
+        display: none;
+    }
+
+    .counting-part{
+        flex-direction: column;
+    }
+
+    .counting-text{
+        padding-inline: 20px;
+    }
+
+    .counting-text h2{
+        font-size: 32px;
+    }
+
+    .counting-text h2 br{
+        display: none;
+    }
+
+    .counting-text p br{
+        display: none;
+    }
+
+    .counting-text h4 br{
+        display: none;
+
+    }
+
+    .counting-text h4{
+        font-size: 13px;
+    }
+
+    .counting-text p{
+        font-size: 13px;
+    }
+
+    .box1{
+        width: 280px;
+        height: 70px;
+        background-color: rgb(6, 130, 255);
+        color: white;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        z-index: 5;
+        position: relative;
+        left: 460px;
+    }
+
+    .box1 h1{
+        font-size: 40px;
+    }
+
+    .box2{
+        width: 280px;
+        height: 70px;
+        background-color:rgb(239, 239, 239);
+        color: black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 4;
+        position: relative;
+        top: 66px;
+        right: 10px;
+        left: 230px;
+    }
+
+    .box2 h1{
+        font-size: 40px;
+    }
+
+    .box3{
+        width: 280px;
+        height: 70px;
+        background-color:rgb(239, 239, 239);
+        color: black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 3;
+        position: relative;
+        top: 130px;
+        right: 5px;
+       
+    }
+
+    .box3 h1{
+        font-size: 40px;
+    }
+
+    .box4{
+        width: 280px;
+        height: 70px;
+        background-color:rgb(239, 239, 239);
+        color: black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 2;
+        position: relative;
+        top: 200px;
+        right: 240px;  
+    }
+
+    .box4 h1{
+        font-size: 40px;
+    }
+
+    .box5{
+        width: 280px;
+        height: 70px;
+        background-color:rgb(239, 239, 239);
+        color: black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 1;
+        position: relative;
+        top: 260px;
+        right: 475px;  
+    }
+
+    .box5 h1{
+        font-size: 40px;
+    }
+
+    .index-part{
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+    #shopping{
+        width: 200px;
+        height: 35px;
+        border-radius: 16px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        position: absolute;
+        top: 450px;
+    left: 600px;
+         
+    }
+
+    #india-side{
+        width: 200px;
+        height: 35px;
+        border-radius: 16px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        position: absolute;
+        top: 500px;
+        left: 600px;
+    }
+
+
+    .get-section{
+        flex-direction: column;
+    }
+
+    .get-text{
+        padding-inline: 20px;
+    }
+
+    .get-text h2{
+        font-size: 30px;
+    }
+
+    .get-text p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .get-text p br{
+        display: none;
+    }
+
+    .get-photo img{
+        width: 400px;
+        padding-top: 50px;
+    }
+
+    .paragraph h2 br{
+display: none;
+    }
+
+    .paragraph h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .paragraph p{
+        font-size: 15px;
+        padding-inline: 20px;
+        text-align: center;
+    }
+
+    .paragraph p br{
+        display: none;
+    }
+
+    .blue-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .blue-text{
+        width: 100%;
+        padding-left: 0px;
+        padding-inline: 20px;
+        
+    }
+
+    .blue-text h1 br{
+      display: none;
+    }
+
+    .blue-text h1{
+        font-size: 38px;
+    }
+
+    .blue-text p br{
+        display: none;
+      }
+
+      .blue-text p{
+        font-size: 15px;
+      }
+
+      .icon-box1{
+        padding-left: 30px;
+      }
+
+
+      .icon-box1 h1{
+        font-size: 25px;
+    }
+
+    .icon-box2 h1{
+        font-size: 25px;
+        
+    }
+      .first-line{
+        width: 90%;
+        color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    }
+
+    .second-line{
+        width: 90%;
+        color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    }
+
+    .side-pic img{
+        display: none;
+    }
+
+    .footer-section{
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-side{
+        width: 100%; 
+    }
+
+    .logo-side img{
+        padding-left: 0px;
+    }
+
+    .logo-side p{
+        padding-left: 15px;
+    }
+
+    .logo-side h5{
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .logo-side button{
+        margin-left: 15px;
+    }
+
+
+
+    .logo-side span i{
+        font-size: 25px;
+        color: gray;
+        padding-left: 10px;
+    }
+    .footer-list{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-list ul li{
+        display: none;
+    }
+
+    .footer-list ul li:first-child h4{
+        display: inline;
+    }
+
+    .last-line{
+        width: 100%;
+        padding-inline: 20px;
+        }
+       
+
+    .last-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .last-footer ul{
+        width: 100%;
+    }
+
+    .last-footer ul li{
+        padding-inline: 5px;
+        padding-block: 30px;
+    }
+
+    .last-footer ul li:first-child{
+        display: none;
+    }
+
+    .last-footer span{
+        width: 100%;
+            color: white;
+            font-size: 15px;
+            padding-left: 10px;
+            padding-bottom: 40px;
+        
+    }
+
+
+
+
+
+
+
+
+
+}
